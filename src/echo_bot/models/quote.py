@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 @dataclass
-class quote:
+class Quote:
     id: int
     quote_text: str
     user_id: int
