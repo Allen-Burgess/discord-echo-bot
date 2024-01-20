@@ -1,5 +1,5 @@
 from discord.ext import commands
-from constants import Responses
+from echo_bot.constants import Responses
 import random
 
 class Greetings(commands.Cog):

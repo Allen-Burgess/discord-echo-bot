@@ -1,7 +1,7 @@
 import os
 from discord import Intents
 from discord.ext import commands
-from cogs import ALL_COGS
+from echo_bot.cogs import ALL_COGS
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 

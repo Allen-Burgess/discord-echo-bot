@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "discord-echo-bot"
+name = "echo-bot"
 version = "0.2.0"
 description = ""
 authors = ["Allen Burgess <allen2burgess@gmail.com>"]
