@@ -1,3 +1,7 @@
 {
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.globalModuleInstallation": true,
+    "python.languageServer": "Pylance",
+    "python.missingPackage.severity": "Error"
     
 }
