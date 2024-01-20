@@ -9,4 +9,3 @@ class Greetings(commands.Cog):
     @commands.command(name="Hello")
     async def return_greeting(self, ctx):
         await ctx.send(random.choice(Responses.GREETINGS))
-

@@ -8,8 +8,42 @@ authors = ["Allen Burgess <allen2burgess@gmail.com>"]
 python = "^3.10"
 pytest = "^7.4.4"
 discord = "^2.3.2"
+ruff = "^0.1.14"
 
 [tool.poetry.dev-dependencies]
+
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

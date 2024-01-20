@@ -7,3 +7,6 @@ make install:
 
 make start:
 	poetry run python -m src.echo_bot
+
+make ruff:
+	poetry run ruff check --fix .

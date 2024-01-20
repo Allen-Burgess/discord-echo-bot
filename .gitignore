@@ -161,3 +161,7 @@ cython_debug/
 
 # Database
 database.db
+
+# Ruff
+.ruff_cache
+*_cache
